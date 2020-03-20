@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF WORLD</title>
+    <link rel = "icon" type = "image/gif" href = "icon.gif">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="aboutGifWorld">
+            <img id="gifIcon" src="icon1.gif">GIF WORLD
+        </div>
+
+        <div class="container">
+            <form id="searchForm">
+                <div class="input-group mb-3">
+                    <input id="searchInput" type="text" class="form-control" placeholder="Search for a gifs">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" id="searchButton">Search</button>
+                    </div>
+                </div>
+            </form>
+
+            <div id="thumbs"></div>
+            
+            <div id="recommend">
+                <p>RECOMMENDED GIFS</p>
+            </div>
+
+            <div id="recommended"></div>
+        </div>
+   
+    <div class="loader-wrapper">
+        <div class="lds-ripple"><div></div><div></div></div>
+    </div>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+            <script src="global.js"></script>
+            <script src="app.js"></script>
+</body>
+</html>
